@@ -8,7 +8,7 @@ before:
 
 builds:
   - id: gotfiles-sync
-    main: ./cmd/gotfiles-sync
+    main: ./cmd/dotfiles-sync
     env:
       - CGO_ENABLED=0
     goos:
